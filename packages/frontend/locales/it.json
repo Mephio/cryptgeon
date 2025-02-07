@@ -6,7 +6,7 @@
 		"create": "crea",
 		"loading": "carica",
 		"mode": "modalita",
-		"views": "{n, plural, =0 {viste} =1 {1 vista} other {# viste}}",
+		"views": "{n, plural, =0 {visualizzazioni} =1 {1 visualizzazione} other {# visualizzazioni}}",
 		"minutes": "{n, plural, =0 {minuti} =1 {1 minuto} other {# minuti}}",
 		"max": "max",
 		"share_link": "condividi link",
