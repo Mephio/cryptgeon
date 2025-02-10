@@ -2,7 +2,8 @@
 FROM node:22-alpine as client 
 ENV PNPM_HOME="/pnpm"
 ENV PATH="$PNPM_HOME:$PATH"
-RUN corepack enable
+# RUN corepack enable
+RUN npm install -g corepack@latest
 
 WORKDIR /tmp
 COPY . .
